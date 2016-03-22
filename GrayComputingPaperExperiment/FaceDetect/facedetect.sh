@@ -1,0 +1,2 @@
+g++ -ggdb `pkg-config --cflags opencv` -o `basename facedetect.cpp .cpp` facedetect.cpp `pkg-config --libs opencv`
+./facedetect --cascade="./haarcascade_frontalface_alt.xml" --nested-cascade="./haarcascade_eye.xml" --scale=1.3 4.jpg
