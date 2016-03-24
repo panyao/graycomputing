@@ -160,6 +160,7 @@ char hexstring[41];
 
 char ch[] = "abcdefghijklmnopqrstuvwxyz";
 char target[] = "81fe8bfe87576c3ecb22426f8e57847382917acf"; //abcd
+
 int num,t;
 string s;
 for(int i=1;i<=10000000;i++){
